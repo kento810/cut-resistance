@@ -1,0 +1,209 @@
+p,
+li {
+	font-family: seravek-web, poppins, sans-serif;
+	line-height: 20px;
+}
+
+h2 {
+	font-family: strait, Arial, Helvetica, sans-serif;
+}
+
+h4 {
+	font-family: seravek-web, poppins, sans-serif;
+	font-weight: bold;
+	color: #494949;
+}
+
+.ic-box-shadow {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.52));
+	-webkit-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.52));
+	-moz-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.52));
+}
+
+.ironclad-tab {
+	background-color: #fff100;
+	clip-path: polygon(0% 0%, 93.55% 0%, 100% 5%, 100% 95%, 93.55% 100%, 0% 100%);
+	padding-right: 12%;
+	padding-top: 15px;
+	border-right-style: none;
+	border-right-color: #000000;
+	border-top-style: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.vertical-line {
+	/* width: 3px */
+	/* background-color: #b1abab */
+	/* float: left */
+	/* border: 1px ridge #b1b1b1 */
+	/* border-radius: 2px */
+	margin-left: 3%;
+	margin-right: 1%;
+}
+
+.vert-line {
+	height: 100%;
+}
+
+.horizontal_divider {
+	width: 100%;
+}
+
+.horizontal-padding {
+	margin-left: 35px;
+}
+
+.fabric-tension-image {
+	width: 77%;
+}
+
+.kevlar-section {
+	background-color: #e1dedc;
+}
+
+.kevlar-font-color {
+	color: #e11b22;
+}
+
+.kevlar-italic {
+	font-style: italic;
+	padding-left: 7px;
+	padding-right: 7px;
+	line-height: 17px;
+	padding-bottom: 20px;
+}
+
+.kevlar-background {
+	background-color: #e1dedc;
+	padding: 25px;
+}
+
+.dupont-copyright {
+	line-height: 18px;
+	margin-top: 10px;
+}
+
+.ratings {
+	width: 35%;
+}
+
+.kevlar_image {
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+.dupont_kevlar_steel {
+	width: 97%;
+}
+
+.ic-border {
+	border-bottom-style: solid;
+}
+
+.cut-resistance-image {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ic_caret_gray {
+	width: 8px;
+	display: inline-flex;
+	padding-bottom: 1px;
+}
+
+.list {
+	list-style: none;
+}
+
+.ic-bullet {
+	width: 8px;
+	display: inline-flex;
+	padding-bottom: 6px;
+	margin-right: 5px;
+}
+
+.triangle-list {
+	margin-left: 10px;
+	padding: 0 1em;
+	list-style: none;
+}
+
+.triangle-list li::before {
+	content: "";
+	border-color: transparent #111;
+	border-style: solid;
+	border-width: 0.35em 0 0.35em 0.45em;
+	display: block;
+	height: 0;
+	width: 0;
+	left: -15px;
+	top: 16px;
+	position: relative;
+}
+
+.ic-image-padding {
+	padding: 10px;
+}
+
+.cut-usage-guide {
+	width: 75%;
+}
+
+.engineered-yarn {
+	width: 85%;
+}
+
+@media (max-width: 767px) {
+	.kevlar_image {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.vertical-line {
+		/* width: 3px */
+		/* background-color: #b1abab */
+		/* float: left */
+		/* border: 1px ridge #b1b1b1 */
+		/* border-radius: 2px */
+		margin-left: 3%;
+		margin-right: 1%;
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.kevlar_image {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	.kevlar-background {
+		background-color: #e1dedc;
+		padding: 25px 25px 1px 25px;
+	}
+}
+
+@media (min-width: 992px) {
+	.kevlar_image {
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+
+	.kevlar-background {
+		background-color: #e1dedc;
+		padding: 25px;
+		clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 0% 93%, 0% 7%);
+	}
+}
+
+@media (min-width: 1200px) {
+	.kevlar_image {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	.engineered-yarn {
+		width: 65%;
+	}
+}
